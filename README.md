@@ -1,4 +1,4 @@
-# WiseBooks
+# WiseBooks + Alpaca
 
 ### **Tech Stack**
 1. **Front End**:  
