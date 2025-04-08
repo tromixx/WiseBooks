@@ -1,180 +1,223 @@
-# WiseBooks + Alpaca
-
-### **Tech Stack**
-1. **Front End**:  
-   - **Blazor** (WebAssembly or Server) for a modern, interactive UI.
-   - **Blazorise** or **MudBlazor** for pre-built UI components (e.g., charts, tables, forms).
-
-2. **Back End**:  
-   - **ASP.NET Core** for the backend API.
-   - **GraphQL** (via HotChocolate) for flexible and efficient data queries.
-
-3. **Database**:  
-   - **SQLite** for local development and lightweight storage.
-   - **MongoDB** (NoSQL) for user info if you prefer a schema-less approach.
-
-4. **APIs**:  
-   - **Alpaca API** for stock trading and market data.
-   - **DeepSeek API** (or similar open-source AI tools) for predictive analytics and insights.
-
-5. **Hosting**:  
-   - **Azure** or **AWS** for cloud hosting.
-   - **Docker** for containerization and deployment.
+Day trading companion app designed to make real-time decisions based on **previous day’s market activity**.
 
 ---
 
-### **Implementation Plan**
+# ✅ PHASE 1 – ROCK SOLID TRADING PLAN (Day Trading Context)
 
-#### **Phase 1: Setup and Core Features**
-1. **Project Setup**:
-   - Create a Blazor WebAssembly project for the front end.
-   - Set up an ASP.NET Core backend with GraphQL support using HotChocolate.
-   - Choose a database (SQLite for simplicity or MongoDB for flexibility).
+This is the daily **pre-market and intraday battle plan**. It focuses on:
 
-2. **User Authentication**:
-   - Implement user registration and login using **ASP.NET Core Identity**.
-   - Use **JWT (JSON Web Tokens)** for secure authentication.
-
-3. **Alpaca API Integration**:
-   - Create a service to interact with the Alpaca API for:
-     - Fetching stock data (real-time and historical).
-     - Executing trades (buy/sell).
-     - Managing portfolios.
-   - Store API keys securely (e.g., using Azure Key Vault or environment variables).
-
-4. **Portfolio Creation**:
-   - Build a UI for users to create portfolios:
-     - Pre-built portfolios (conservative, moderate, aggressive).
-     - Custom portfolios with fractional shares.
-   - Use Alpaca API to fetch stock data and execute trades.
-
-5. **Portfolio Dashboard**:
-   - Display the user’s portfolio with:
-     - Current allocation (pie chart or bar graph).
-     - Total value and gains/losses.
-     - Interactive charts for minute-to-minute history.
-   - Use **Chart.js** or **Blazorise Charts** for visualizations.
+## 🎯 Key Goals:
+- Know **where the market was interested yesterday**
+- Understand **today’s early momentum**
+- Decide on **entry/exit zones** based on real data
 
 ---
 
-#### **Phase 2: Automated Rebalancing**
-1. **Rebalancing Logic**:
-   - Implement threshold-based rebalancing (e.g., ±5% drift from target allocation).
-   - Use Alpaca API to execute trades for rebalancing.
+## 📅 Step-by-Step Daily Checklist for Trading
 
-2. **User Control**:
-   - Allow users to set rebalancing preferences (threshold, frequency).
-   - Notify users before executing rebalancing trades and require approval.
-
-3. **Transparency**:
-   - Log all rebalancing actions and display them in the dashboard.
-   - Show the impact of rebalancing on the portfolio’s alignment.
-
----
-
-#### **Phase 3: Alerting System**
-1. **Price Alerts**:
-   - Notify users when a stock’s price crosses a specific threshold.
-   - Use Alpaca API for real-time price updates.
-
-2. **Rebalancing Alerts**:
-   - Notify users when the portfolio drifts from the target allocation.
-   - Suggest specific actions to rebalance.
-
-3. **News Alerts**:
-   - Integrate a news API (e.g., **NewsAPI**) to provide stock-specific and market-wide news.
-   - Use NLP (e.g., DeepSeek) to analyze sentiment and highlight important news.
+### 🔍 Pre-Market (8:00 – 9:30 AM ET)
+```markdown
+1. [ ] Scan 3–5 tickers (SPY, QQQ, TSLA, NVDA, AAPL, etc)
+2. [ ] Mark Yesterday’s High & Low → Horizontal lines on chart
+3. [ ] Mark Premarket High & Low
+4. [ ] Look for volume spike zones (from yesterday)
+5. [ ] Identify Support & Resistance from past 3–5 days
+6. [ ] Note:
+     - % gap up/down from yesterday's close
+     - Close position in yesterday’s candle (high/middle/low)
+     - Volume vs 20-day average
+7. [ ] Check SPY/QQQ behavior
+8. [ ] Note any earnings/news for your tickers
+```
 
 ---
 
-#### **Phase 4: AI Integration**
-1. **Portfolio Recommendations**:
-   - Use DeepSeek or similar AI tools to analyze user preferences and market trends.
-   - Recommend personalized portfolios or individual stocks.
-
-2. **Predictive Analytics**:
-   - Build machine learning models to predict stock performance or market trends.
-   - Use **TensorFlow** or **PyTorch** for model training and deployment.
-
-3. **Sentiment Analysis**:
-   - Use NLP to analyze news articles, social media, and earnings calls.
-   - Provide sentiment-based alerts or insights.
+### 📊 Intraday Plan (9:30 AM – 11:00 AM ET)
+```markdown
+1. [ ] First 15m: Wait and watch — observe price action
+2. [ ] If price reclaims yesterday’s high → consider long setup
+3. [ ] If price rejects premarket high or key resistance → short setup
+4. [ ] Monitor volume – is it confirming the move?
+5. [ ] Use VWAP + EMAs for additional confluence
+6. [ ] Protect capital: define risk (stop-loss) before trade
+```
 
 ---
 
-#### **Phase 5: Testing and Deployment**
-1. **Testing**:
-   - Write unit tests for backend services and API integrations.
-   - Use **bUnit** for testing Blazor components.
-   - Perform end-to-end testing with **Playwright** or **Selenium**.
-
-2. **Deployment**:
-   - Containerize the app using **Docker**.
-   - Deploy to **Azure App Service** or **AWS Elastic Beanstalk**.
-   - Set up CI/CD pipelines using **GitHub Actions** or **Azure DevOps**.
+## 🔁 Proven Patterns to Watch
+- **Gap and Go**
+- **Gap Fill Reversal**
+- **Opening Range Breakout (ORB)**
+- **Previous Day Break and Retest**
 
 ---
 
-### **Database Design**
-#### **SQLite (Relational)**
-- **Users Table**:
-  - `UserId` (Primary Key)
-  - `Username`
-  - `PasswordHash`
-  - `Email`
-- **Portfolios Table**:
-  - `PortfolioId` (Primary Key)
-  - `UserId` (Foreign Key)
-  - `Name`
-  - `TargetAllocation` (JSON)
-- **Transactions Table**:
-  - `TransactionId` (Primary Key)
-  - `PortfolioId` (Foreign Key)
-  - `StockSymbol`
-  - `Quantity`
-  - `Price`
-  - `Timestamp`
+# 🧠 PHASE 2 – BUILDING “WiseBooks” (Blazor Server App)
 
-#### **MongoDB (NoSQL)**
-- **Users Collection**:
-  - `_id`
-  - `username`
-  - `passwordHash`
-  - `email`
-- **Portfolios Collection**:
-  - `_id`
-  - `userId`
-  - `name`
-  - `targetAllocation` (JSON)
-  - `transactions` (Array of transaction objects)
+Let’s build a **Blazor Server App** — ideal for performance, local debugging, and future backend extensibility (Python API, trading bots, etc).
 
 ---
 
-### **Tools and Libraries**
-1. **Front End**:
-   - **Blazorise** or **MudBlazor** for UI components.
-   - **Chart.js** or **Blazorise Charts** for visualizations.
-2. **Back End**:
-   - **HotChocolate** for GraphQL.
-   - **Alpaca .NET SDK** for Alpaca API integration.
-   - **TensorFlow.NET** or **ML.NET** for AI/ML tasks.
-3. **Database**:
-   - **Entity Framework Core** for SQLite.
-   - **MongoDB.Driver** for MongoDB.
-4. **DevOps**:
-   - **Docker** for containerization.
-   - **GitHub Actions** or **Azure DevOps** for CI/CD.
+## 🧱 Project Setup
+
+### 🛠️ Step 1: Create the App
+Open VS 2022 or newer →  
+**New Project > Blazor Server App > Call it `WiseBooks`**
+
+- ✅ .NET 8
+- ✅ Authentication: None (for now)
+- ✅ ASP.NET Core Hosted: No
+- ✅ Location: Your preferred repo folder
 
 ---
 
-### **Timeline**
-1. **Week 1-2**: Project setup, user authentication, and Alpaca API integration.
-2. **Week 3-4**: Portfolio creation and dashboard.
-3. **Week 5-6**: Automated rebalancing and alerting system.
-4. **Week 7-8**: AI integration (recommendations, predictive analytics, sentiment analysis).
-5. **Week 9-10**: Testing, deployment, and final polish.
+## 📁 Folder Structure
+```
+WiseBooks/
+│
+├── Pages/
+│   └── Dashboard.razor         # Main app logic
+│
+├── Services/
+│   └── StockDataService.cs     # Pull data from Alpha Vantage or Yahoo
+│
+├── Models/
+│   └── StockSnapshot.cs        # Yesterday’s stats
+│
+├── wwwroot/
+│   └── charting + indicators
+│
+└── appsettings.json            # API key config (AlphaVantage etc.)
+```
 
 ---
 
-### **Conclusion**
-This plan provides a clear roadmap for building your app using **Blazor**, **GraphQL**, and **SQLite/MongoDB**. By leveraging **Alpaca** and **DeepSeek APIs**, you can deliver a powerful yet simple and transparent tool for beginner investors. Let me know if you’d like further details or help with specific parts of the implementation!
+## 🧩 Step 2: Define Model
+`Models/StockSnapshot.cs`
+```csharp
+public class StockSnapshot
+{
+    public string Ticker { get; set; }
+    public decimal PreviousHigh { get; set; }
+    public decimal PreviousLow { get; set; }
+    public decimal PreviousClose { get; set; }
+    public decimal GapPercentage { get; set; }
+    public decimal TodayOpen { get; set; }
+    public decimal CurrentPrice { get; set; }
+    public decimal AverageVolume { get; set; }
+    public decimal YesterdayVolume { get; set; }
+    public string ClosePositionInCandle { get; set; } // "High", "Middle", "Low"
+}
+```
+
+---
+
+## 🔌 Step 3: Create the Stock Data Service
+`Services/StockDataService.cs`
+
+We'll simulate fetching data from Alpha Vantage or Yahoo. You can later plug in real API logic.
+
+```csharp
+public class StockDataService
+{
+    public async Task<StockSnapshot> GetSnapshotAsync(string ticker)
+    {
+        // Simulated: Replace with real API calls
+        return new StockSnapshot
+        {
+            Ticker = ticker.ToUpper(),
+            PreviousHigh = 190.50m,
+            PreviousLow = 185.10m,
+            PreviousClose = 188.20m,
+            GapPercentage = 1.23m,
+            TodayOpen = 190.00m,
+            CurrentPrice = 192.10m,
+            AverageVolume = 28_000_000,
+            YesterdayVolume = 32_000_000,
+            ClosePositionInCandle = "High"
+        };
+    }
+}
+```
+
+---
+
+## 🌅 Step 4: Dashboard UI Page
+
+`Pages/Dashboard.razor`
+```razor
+@page "/"
+@inject StockDataService DataService
+
+<PageTitle>WiseBooks Dashboard</PageTitle>
+
+<h1 class="text-3xl font-bold mb-4">📘 WiseBooks Trading Dashboard</h1>
+
+<input @bind="ticker" placeholder="Enter ticker..." class="p-2 border rounded" />
+<button @onclick="LoadStock" class="ml-2 px-4 py-2 bg-blue-500 text-white rounded">Analyze</button>
+
+@if (snapshot != null)
+{
+    <div class="mt-4 p-4 bg-gray-100 rounded shadow">
+        <h2 class="text-xl font-semibold">@snapshot.Ticker Snapshot</h2>
+        <p>📈 Previous High: $@snapshot.PreviousHigh</p>
+        <p>📉 Previous Low: $@snapshot.PreviousLow</p>
+        <p>🔒 Previous Close: $@snapshot.PreviousClose</p>
+        <p>🚀 Gap % Today: <b>@snapshot.GapPercentage%</b></p>
+        <p>🕯️ Close Position in Candle: @snapshot.ClosePositionInCandle</p>
+        <p>📊 Yesterday Volume: @snapshot.YesterdayVolume</p>
+        <p>📉 Average Volume: @snapshot.AverageVolume</p>
+    </div>
+}
+
+@code {
+    private string ticker = "AAPL";
+    private StockSnapshot? snapshot;
+
+    private async Task LoadStock()
+    {
+        snapshot = await DataService.GetSnapshotAsync(ticker);
+    }
+}
+```
+
+---
+
+## ✅ Step 5: Register Services
+
+In `Program.cs`:
+```csharp
+builder.Services.AddScoped<StockDataService>();
+```
+
+---
+
+## 🔄 Optional Step: Add Auto-Refresh Every 30s
+Inside `@code` block:
+```csharp
+protected override async Task OnInitializedAsync()
+{
+    await LoadStock();
+    _ = Task.Run(async () =>
+    {
+        while (true)
+        {
+            await Task.Delay(30000);
+            await LoadStock();
+            StateHasChanged();
+        }
+    });
+}
+```
+
+---
+
+## 🔮 What’s Next (Optional Features Later)
+
+- Add charting via `Chart.js` or `Plotly` in `wwwroot`
+- Add news & earnings feed (using Finnhub or MarketWatch scraping)
+- Add pattern detection (Gap & Go, ORB) into service logic
+- Add TradingView widget embed or API alerts
+- Save past days for backtesting
+
+---
