@@ -1,0 +1,33 @@
+﻿@page "/"
+@inject StockDataService DataService
+
+<PageTitle>WiseBooks Dashboard</PageTitle>
+
+<h1 class="text-3xl font-bold mb-4">📘 WiseBooks Trading Dashboard</h1>
+
+<input @bind="ticker" placeholder="Enter ticker..." class="p-2 border rounded" />
+<button @onclick="LoadStock" class="ml-2 px-4 py-2 bg-blue-500 text-white rounded">Analyze</button>
+
+@if (snapshot != null)
+{
+    <div class="mt-4 p-4 bg-gray-100 rounded shadow">
+        <h2 class="text-xl font-semibold">@snapshot.Ticker Snapshot</h2>
+        <p>📈 Previous High: $@snapshot.PreviousHigh</p>
+        <p>📉 Previous Low: $@snapshot.PreviousLow</p>
+        <p>🔒 Previous Close: $@snapshot.PreviousClose</p>
+        <p>🚀 Gap % Today: <b>@snapshot.GapPercentage%</b></p>
+        <p>🕯️ Close Position in Candle: @snapshot.ClosePositionInCandle</p>
+        <p>📊 Yesterday Volume: @snapshot.YesterdayVolume</p>
+        <p>📉 Average Volume: @snapshot.AverageVolume</p>
+    </div>
+}
+
+@code {
+    private string ticker = "AAPL";
+    private StockSnapshot? snapshot;
+
+    private async Task LoadStock()
+    {
+        snapshot = await DataService.GetSnapshotAsync(ticker);
+    }
+}
