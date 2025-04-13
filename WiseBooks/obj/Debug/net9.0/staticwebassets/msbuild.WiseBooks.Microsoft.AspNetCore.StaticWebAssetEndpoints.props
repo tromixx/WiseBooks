@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/WiseBooks/app.bg1idtp73n.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bg1idtp73n"},{"Name":"integrity","Value":"sha256-2\u002BgJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA="},{"Name":"label","Value":"_content/WiseBooks/app.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222\u002BgJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 05:48:46 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WiseBooks/app.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2\u002BgJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222\u002BgJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 05:48:46 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gA8gmjJCZaKjPT9SZ\u002Byaw0dvjBWcl3dXl5LTSRQVgXQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2678"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gA8gmjJCZaKjPT9SZ\u002Byaw0dvjBWcl3dXl5LTSRQVgXQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 21:23:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WiseBooks/app.o69o8tthqn.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o69o8tthqn"},{"Name":"integrity","Value":"sha256-gA8gmjJCZaKjPT9SZ\u002Byaw0dvjBWcl3dXl5LTSRQVgXQ="},{"Name":"label","Value":"_content/WiseBooks/app.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2678"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gA8gmjJCZaKjPT9SZ\u002Byaw0dvjBWcl3dXl5LTSRQVgXQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 21:23:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WiseBooks/favicon.ifv42okdf2.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</AssetFile>
@@ -556,13 +556,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WiseBooks.dl5pmfzhyr.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kcrE0YmIJ6hrYdoRI/EQh/jI/zeGCQBF6hJwlbNyHW4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5760"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kcrE0YmIJ6hrYdoRI/EQh/jI/zeGCQBF6hJwlbNyHW4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 03:56:19 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5760"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kcrE0YmIJ6hrYdoRI/EQh/jI/zeGCQBF6hJwlbNyHW4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 21:15:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WiseBooks/WiseBooks.dl5pmfzhyr.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WiseBooks.dl5pmfzhyr.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dl5pmfzhyr"},{"Name":"integrity","Value":"sha256-kcrE0YmIJ6hrYdoRI/EQh/jI/zeGCQBF6hJwlbNyHW4="},{"Name":"label","Value":"_content/WiseBooks/WiseBooks.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5760"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kcrE0YmIJ6hrYdoRI/EQh/jI/zeGCQBF6hJwlbNyHW4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 03:56:19 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5760"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kcrE0YmIJ6hrYdoRI/EQh/jI/zeGCQBF6hJwlbNyHW4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 21:15:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

@@ -1,36 +1,38 @@
-public class StockDataService
+// In Services/StockDataService.cs
+using System;
+using System.Threading.Tasks;
+
+namespace WiseBooks.Services
 {
-    private readonly Random _random = new();
-    
-    public async Task<StockSnapshot> GetSnapshotAsync(string ticker)
+    public class StockDataService
     {
-        // Simulate API delay
-        await Task.Delay(300);
+        private readonly Random _random = new();
         
-        // Generate realistic fake data
-        decimal basePrice = ticker.ToUpper() switch
+        public async Task<StockSnapshot> GetMaraSnapshotAsync()
         {
-            "MARA" => 25.00m,
-            "SPY" => 450.00m,
-            _ => 100.00m
-        };
+            await Task.Delay(300); // Simulate API delay
+            
+            decimal basePrice = 25.00m;
+            decimal randomOffset = (decimal)(_random.NextDouble() * 2 - 1);
+            decimal prevClose = basePrice + randomOffset;
+            
+            return new StockSnapshot
+            {
+                PreviousHigh = Math.Round(prevClose + (decimal)(_random.NextDouble() * 0.5), 2),
+                PreviousLow = Math.Round(prevClose - (decimal)(_random.NextDouble() * 0.5), 2),
+                PreviousClose = Math.Round(prevClose, 2),
+                GapPercentage = Math.Round((decimal)(_random.NextDouble() * 2 - 1), 2), // Random between -1 and 1%
+                ClosePositionInCandle = _random.Next(0, 3) switch { 0 => "Low", 1 => "Middle", _ => "High" }
+            };
+        }
+    }
 
-        var volatility = _random.Next(5, 15);
-        var prevClose = basePrice + (decimal)(_random.NextDouble() * 2 - 1);
-        var todayOpen = prevClose * (1 + (decimal)(_random.NextDouble() * 0.02 - 0.01));
-
-        return new StockSnapshot
-        {
-            Ticker = ticker.ToUpper(),
-            PreviousHigh = prevClose + (decimal)(_random.NextDouble() * volatility / 100),
-            PreviousLow = prevClose - (decimal)(_random.NextDouble() * volatility / 100),
-            PreviousClose = prevClose,
-            GapPercentage = Math.Round((todayOpen - prevClose) / prevClose * 100, 2),
-            TodayOpen = todayOpen,
-            CurrentPrice = todayOpen * (1 + (decimal)(_random.NextDouble() * 0.005 - 0.0025)),
-            AverageVolume = 10_000_000 + _random.Next(-2_000_000, 5_000_000),
-            YesterdayVolume = 10_000_000 + _random.Next(-3_000_000, 7_000_000),
-            ClosePositionInCandle = _random.Next(0, 3) switch { 0 => "Low", 1 => "Middle", _ => "High" }
-        };
+    public class StockSnapshot
+    {
+        public decimal PreviousHigh { get; set; }
+        public decimal PreviousLow { get; set; }
+        public decimal PreviousClose { get; set; }
+        public decimal GapPercentage { get; set; }
+        public string ClosePositionInCandle { get; set; } = string.Empty;
     }
 }

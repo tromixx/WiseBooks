@@ -11,8 +11,15 @@
 </div>
 
 @code {
-    [Parameter] public string Icon { get; set; }
-    [Parameter] public string Label { get; set; }
-    [Parameter] public string Value { get; set; }
-    [Parameter] public bool? IsPositive { get; set; }
+    [Parameter]
+    public string Icon { get; set; } = string.Empty; // Initialize
+    
+    [Parameter]
+    public string Label { get; set; } = string.Empty; // Initialize
+    
+    [Parameter]
+    public string Value { get; set; } = string.Empty; // Initialize
+    
+    [Parameter]
+    public bool? IsPositive { get; set; }
 }

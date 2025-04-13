@@ -1,93 +1,130 @@
 ﻿@page "/"
 @inject StockDataService DataService
+@using MudBlazor
+@using MudBlazor.Charts
 
 <PageTitle>WiseBooks - Trading Dashboard</PageTitle>
 
-<div class="container py-4">
+<div class="dashboard">
     <!-- Header -->
-    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-4 gap-3">
+    <div class="dashboard-header">
         <div>
-            <h1 class="display-6 text-primary mb-0">
-                <i class="bi bi-graph-up me-2"></i>Trading Dashboard
+            <h1 class="stock-title">
+                <i class="bi bi-graph-up me-2"></i>MARA - Yesterday's Analysis
             </h1>
-            <p class="text-muted mb-0">Analyze yesterday's key levels</p>
         </div>
-        <div class="d-flex flex-grow-1 flex-md-grow-0 gap-2 w-100 w-md-auto">
-            <input @bind="ticker" 
-                   class="form-control" 
-                   placeholder="MARA, SPY, etc." />
-            <button @onclick="LoadStock" 
-                    class="btn btn-primary px-4">
-                <i class="bi bi-lightning-charge me-1"></i>Analyze
-            </button>
-        </div>
+        <button @onclick="LoadStock" class="refresh-button" disabled="@isLoading">
+            <i class="bi bi-arrow-clockwise me-1"></i>
+            @if (isLoading) {
+                <span>Refreshing...</span>
+            } else {
+                <span>Refresh</span>
+            }
+        </button>
     </div>
 
     @if (snapshot != null)
     {
-        <div class="row g-4">
-            <!-- Key Metrics -->
-            <div class="col-lg-4">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-header bg-primary text-white">
-                        <h5 class="card-title mb-0">
-                            <i class="bi bi-speedometer2 me-2"></i>@snapshot.Ticker Metrics
-                        </h5>
-                    </div>
-                    <div class="card-body">
-                        <MetricCard Icon="bi bi-arrow-up-circle" Label="Previous High" Value="@($"${snapshot.PreviousHigh}")" />
-                        <MetricCard Icon="bi bi-arrow-down-circle" Label="Previous Low" Value="@($"${snapshot.PreviousLow}")" />
-                        <MetricCard Icon="bi bi-dash-circle" Label="Previous Close" Value="@($"${snapshot.PreviousClose}")" />
-                        <MetricCard Icon="bi bi-percent" Label="Gap %" 
-                                   Value="@($"{snapshot.GapPercentage}%")" 
-                                   IsPositive="@(snapshot.GapPercentage >= 0)" />
-                    </div>
-                </div>
+        <!-- Key Metrics -->
+        <div class="metrics-section">
+            <h2 class="metrics-title">
+                <i class="bi bi-speedometer2 me-2"></i>Key Metrics
+            </h2>
+            
+            <div class="metric-item">
+                <span class="metric-label"><i class="bi bi-arrow-up-circle me-1 text-success"></i>Previous High</span>
+                <span class="metric-value">@($"${snapshot.PreviousHigh}")</span>
             </div>
-
-            <!-- Chart -->
-            <div class="col-lg-5">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-header bg-primary text-white">
-                        <h5 class="card-title mb-0">
-                            <i class="bi bi-bar-chart-line me-2"></i>Price Action
-                        </h5>
-                    </div>
-                    <div class="card-body p-2">
-                        <div @ref="chartContainer" style="height: 300px;" class="bg-light rounded"></div>
-                    </div>
-                </div>
+            
+            <div class="metric-item">
+                <span class="metric-label"><i class="bi bi-arrow-down-circle me-1 text-danger"></i>Previous Low</span>
+                <span class="metric-value">@($"${snapshot.PreviousLow}")</span>
             </div>
+            
+            <div class="metric-item">
+                <span class="metric-label"><i class="bi bi-dash-circle me-1 text-muted"></i>Previous Close</span>
+                <span class="metric-value">@($"${snapshot.PreviousClose}")</span>
+            </div>
+            
+            <div class="metric-item">
+                <span class="metric-label"><i class="bi bi-percent me-1 text-primary"></i>Gap %</span>
+                <span class="metric-value @(snapshot.GapPercentage >= 0 ? "text-success" : "text-danger")">
+                    @($"{snapshot.GapPercentage}%")
+                </span>
+            </div>
+        </div>
 
-            <!-- Volume -->
-            <div class="col-lg-3">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-header bg-primary text-white">
-                        <h5 class="card-title mb-0">
-                            <i class="bi bi-volume-up me-2"></i>Volume
-                        </h5>
-                    </div>
-                    <div class="card-body">
-                        <MetricCard Icon="bi bi-activity" Label="Yesterday Volume" 
-                                   Value="@(snapshot.YesterdayVolume.ToString("N0"))" />
-                        <MetricCard Icon="bi bi-arrow-repeat" Label="Avg Volume" 
-                                   Value="@(snapshot.AverageVolume.ToString("N0"))" />
-                        <div class="text-center mt-3">
-                            <span class="badge @GetPositionBadgeClass()">
-                                <i class="bi @GetPositionIcon() me-1"></i>@snapshot.ClosePositionInCandle Close
-                            </span>
-                        </div>
-                    </div>
-                </div>
+        <div class="divider"></div>
+
+        <!-- Price Action -->
+        <div class="price-action-section">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="metrics-title">
+                    <i class="bi bi-bar-chart-line me-2"></i>Yesterday's Price Action
+                </h2>
+                <span class="badge @GetPositionBadgeClass()">
+                    <i class="bi @GetPositionIcon() me-1"></i>@snapshot.ClosePositionInCandle Close
+                </span>
+            </div>
+            
+            <div class="chart-container">
+                <MudChart Height="300" ChartType="ChartType.Line">
+                    <MudChartSeries Values="@priceValues" 
+                                 Name="MARA" 
+                                 ChartSeriesType="ChartSeriesType.Line"
+                                 Fill="false"
+                                 StrokeWidth="3"
+                                 StrokeColor="#4a6bdf"/>
+                    <MudChartOptions XAxisLabels="@timeLabels"
+                                 YAxisTicks="5"
+                                 DisableLegend="true"
+                                 XAxisLines="true"
+                                 YAxisLines="true"/>
+                    <MudChartLineOptions Tension="0.4" PointRadius="3"/>
+                </MudChart>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="loading-spinner">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
             </div>
         </div>
     }
 </div>
 
 @code {
-    private string ticker = "MARA";
     private StockSnapshot? snapshot;
-    private ElementReference chartContainer;
+    private double[] priceValues = Array.Empty<double>();
+    private string[] timeLabels = Array.Empty<string>();
+    private bool isLoading = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadStock();
+    }
+
+    private async Task LoadStock()
+    {
+        isLoading = true;
+        try {
+            snapshot = await DataService.GetMaraSnapshotAsync();
+            if (snapshot != null)
+            {
+                priceValues = new[] { 
+                    (double)snapshot.PreviousLow, 
+                    (double)snapshot.PreviousClose, 
+                    (double)snapshot.PreviousHigh 
+                };
+                timeLabels = new[] { "Low", "Close", "High" };
+            }
+        }
+        finally {
+            isLoading = false;
+        }
+    }
 
     private string GetPositionBadgeClass() => 
         snapshot?.ClosePositionInCandle switch
@@ -104,15 +141,4 @@
             "Middle" => "bi-dash",
             _ => "bi-arrow-down"
         };
-
-    private async Task LoadStock()
-    {
-        snapshot = await DataService.GetSnapshotAsync(ticker);
-        await InitializeChart();
-    }
-
-    private async Task InitializeChart()
-    {
-        // Chart initialization will go here
-    }
 }

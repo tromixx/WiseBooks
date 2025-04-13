@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n0tRTEy3At/EpDrGd17J4Q/X/xdc1s6oopYqgJi17tY=",
+  "Hash": "kLqURTo2nNrwqtJjFVrklDR9gcNfq7loz6thJ4Fq/mE=",
   "Source": "WiseBooks",
   "BasePath": "_content/WiseBooks",
   "Mode": "Default",
@@ -16,6 +16,48 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xq1475mihp",
+      "Integrity": "2Vwsc7xlAzQ63hd7sd1DMyPATUPXTM+zBrFD9wapI5w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/MudBlazor.min.css"
+    },
+    {
+      "Identity": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "naziz8oi58",
+      "Integrity": "0Vnd7JbgZoHBxjLPAVqXo0ioPD/KWLKtVzsUi5moX/8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/MudBlazor.min.js"
+    },
     {
       "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0rhzrbgcgh-k8d9w2qqmf.gz",
       "SourceId": "WiseBooks",
@@ -36,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0wz98yz2xy-naziz8oi58.gz",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/MudBlazor.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wpaibhuq9t",
+      "Integrity": "xDWfUGonPTAxtag91YNFjHlonqPQBaFOHMYnMtOZe7w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/MudBlazor.min.js"
     },
     {
       "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0ywzyn0v93-c2jlpeoesf.gz",
@@ -395,12 +458,12 @@
       "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-bg1idtp73n.gz",
+      "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-o69o8tthqn.gz",
       "SourceId": "WiseBooks",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/WiseBooks",
-      "RelativePath": "app#[.{fingerprint=bg1idtp73n}]?.css.gz",
+      "RelativePath": "app#[.{fingerprint=o69o8tthqn}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -409,8 +472,8 @@
       "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "i1mbqajy2o",
-      "Integrity": "qkmOcw5lomq6d2isNH+MyXDwobndX6W+zIXfvkdIBRk=",
+      "Fingerprint": "rgwf05jhdi",
+      "Integrity": "5Qlqo6y9MoemxNqecE7yeH5GuAUy84m9IqNA8WF3bJE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/app.css"
@@ -836,6 +899,27 @@
       "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
+      "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/tzxjg6is5z-xq1475mihp.gz",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/MudBlazor.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vn73pweasv",
+      "Integrity": "dR1ftTGuu6L4/lLlqMNAXDMxVSDD7R72R4AIKHLUDfw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/MudBlazor.min.css"
+    },
+    {
       "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/u41lij52l6-vr1egmr9el.gz",
       "SourceId": "WiseBooks",
       "SourceType": "Discovered",
@@ -1060,8 +1144,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bg1idtp73n",
-      "Integrity": "2+gJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA=",
+      "Fingerprint": "o69o8tthqn",
+      "Integrity": "gA8gmjJCZaKjPT9SZ+yaw0dvjBWcl3dXl5LTSRQVgXQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/app.css"
@@ -2014,13 +2098,50 @@
   ],
   "Endpoints": [
     {
-      "Route": "app.bg1idtp73n.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-bg1idtp73n.gz",
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "506688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Vwsc7xlAzQ63hd7sd1DMyPATUPXTM+zBrFD9wapI5w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jan 2023 08:38:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Vwsc7xlAzQ63hd7sd1DMyPATUPXTM+zBrFD9wapI5w="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/tzxjg6is5z-xq1475mihp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.007812500000"
+          "Quality": "0.000018344248"
         }
       ],
       "ResponseHeaders": [
@@ -2030,19 +2151,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "127"
+          "Value": "54512"
         },
         {
           "Name": "ETag",
-          "Value": "\"qkmOcw5lomq6d2isNH+MyXDwobndX6W+zIXfvkdIBRk=\""
+          "Value": "\"dR1ftTGuu6L4/lLlqMNAXDMxVSDD7R72R4AIKHLUDfw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 05:48:46 GMT"
+          "Value": "Mon, 02 Jan 2023 08:38:12 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2058,26 +2179,255 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2+gJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA=\""
+          "Value": "W/\"2Vwsc7xlAzQ63hd7sd1DMyPATUPXTM+zBrFD9wapI5w=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "bg1idtp73n"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-2+gJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA="
+          "Value": "sha256-2Vwsc7xlAzQ63hd7sd1DMyPATUPXTM+zBrFD9wapI5w="
         }
       ]
     },
     {
-      "Route": "app.bg1idtp73n.css",
+      "Route": "_content/MudBlazor/MudBlazor.min.css.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/tzxjg6is5z-xq1475mihp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dR1ftTGuu6L4/lLlqMNAXDMxVSDD7R72R4AIKHLUDfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jan 2023 08:38:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dR1ftTGuu6L4/lLlqMNAXDMxVSDD7R72R4AIKHLUDfw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "/Users/tomasvenere/.nuget/packages/mudblazor/6.1.7/staticwebassets/MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Vnd7JbgZoHBxjLPAVqXo0ioPD/KWLKtVzsUi5moX/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jan 2023 08:38:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Vnd7JbgZoHBxjLPAVqXo0ioPD/KWLKtVzsUi5moX/8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0wz98yz2xy-naziz8oi58.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000110277900"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9067"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xDWfUGonPTAxtag91YNFjHlonqPQBaFOHMYnMtOZe7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jan 2023 08:38:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0Vnd7JbgZoHBxjLPAVqXo0ioPD/KWLKtVzsUi5moX/8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Vnd7JbgZoHBxjLPAVqXo0ioPD/KWLKtVzsUi5moX/8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0wz98yz2xy-naziz8oi58.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xDWfUGonPTAxtag91YNFjHlonqPQBaFOHMYnMtOZe7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jan 2023 08:38:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xDWfUGonPTAxtag91YNFjHlonqPQBaFOHMYnMtOZe7w="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-o69o8tthqn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001135073780"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "880"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Qlqo6y9MoemxNqecE7yeH5GuAUy84m9IqNA8WF3bJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 21:23:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gA8gmjJCZaKjPT9SZ+yaw0dvjBWcl3dXl5LTSRQVgXQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gA8gmjJCZaKjPT9SZ+yaw0dvjBWcl3dXl5LTSRQVgXQ="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
       "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2087,7 +2437,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "141"
+          "Value": "2678"
         },
         {
           "Name": "Content-Type",
@@ -2095,11 +2445,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2+gJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA=\""
+          "Value": "\"gA8gmjJCZaKjPT9SZ+yaw0dvjBWcl3dXl5LTSRQVgXQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 05:48:46 GMT"
+          "Value": "Sun, 13 Apr 2025 21:23:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gA8gmjJCZaKjPT9SZ+yaw0dvjBWcl3dXl5LTSRQVgXQ="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-o69o8tthqn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Qlqo6y9MoemxNqecE7yeH5GuAUy84m9IqNA8WF3bJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 21:23:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Qlqo6y9MoemxNqecE7yeH5GuAUy84m9IqNA8WF3bJE="
+        }
+      ]
+    },
+    {
+      "Route": "app.o69o8tthqn.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-o69o8tthqn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001135073780"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "880"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Qlqo6y9MoemxNqecE7yeH5GuAUy84m9IqNA8WF3bJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 21:23:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gA8gmjJCZaKjPT9SZ+yaw0dvjBWcl3dXl5LTSRQVgXQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o69o8tthqn"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gA8gmjJCZaKjPT9SZ+yaw0dvjBWcl3dXl5LTSRQVgXQ="
+        }
+      ]
+    },
+    {
+      "Route": "app.o69o8tthqn.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gA8gmjJCZaKjPT9SZ+yaw0dvjBWcl3dXl5LTSRQVgXQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 21:23:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2109,7 +2604,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bg1idtp73n"
+          "Value": "o69o8tthqn"
         },
         {
           "Name": "label",
@@ -2117,13 +2612,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2+gJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA="
+          "Value": "sha256-gA8gmjJCZaKjPT9SZ+yaw0dvjBWcl3dXl5LTSRQVgXQ="
         }
       ]
     },
     {
-      "Route": "app.bg1idtp73n.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-bg1idtp73n.gz",
+      "Route": "app.o69o8tthqn.css.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-o69o8tthqn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2132,7 +2627,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "127"
+          "Value": "880"
         },
         {
           "Name": "Content-Type",
@@ -2140,11 +2635,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qkmOcw5lomq6d2isNH+MyXDwobndX6W+zIXfvkdIBRk=\""
+          "Value": "\"5Qlqo6y9MoemxNqecE7yeH5GuAUy84m9IqNA8WF3bJE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 05:48:46 GMT"
+          "Value": "Sun, 13 Apr 2025 21:23:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2162,7 +2657,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bg1idtp73n"
+          "Value": "o69o8tthqn"
         },
         {
           "Name": "label",
@@ -2170,144 +2665,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qkmOcw5lomq6d2isNH+MyXDwobndX6W+zIXfvkdIBRk="
-        }
-      ]
-    },
-    {
-      "Route": "app.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-bg1idtp73n.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.007812500000"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "127"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qkmOcw5lomq6d2isNH+MyXDwobndX6W+zIXfvkdIBRk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 05:48:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"2+gJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2+gJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA="
-        }
-      ]
-    },
-    {
-      "Route": "app.css",
-      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "141"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2+gJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 05:48:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2+gJ/7lVFtUACzNYes6gwaB02oGe915FLQo/1slQzDA="
-        }
-      ]
-    },
-    {
-      "Route": "app.css.gz",
-      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-bg1idtp73n.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "127"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qkmOcw5lomq6d2isNH+MyXDwobndX6W+zIXfvkdIBRk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 05:48:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qkmOcw5lomq6d2isNH+MyXDwobndX6W+zIXfvkdIBRk="
+          "Value": "sha256-5Qlqo6y9MoemxNqecE7yeH5GuAUy84m9IqNA8WF3bJE="
         }
       ]
     },
@@ -15530,7 +15888,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15583,7 +15941,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15620,7 +15978,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15667,7 +16025,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15728,7 +16086,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15773,7 +16131,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15828,7 +16186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15889,7 +16247,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15934,7 +16292,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15989,7 +16347,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16042,7 +16400,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16079,7 +16437,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 03:56:19 GMT"
+          "Value": "Sun, 13 Apr 2025 21:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
