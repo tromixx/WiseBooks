@@ -29,3 +29,21 @@ Replace your **manual checklist** with an automated dashboard that:
       public decimal GapPercentage { get; set; }
       public string ClosePosition => Close > (High+Low)/2 ? "High" : "Low"; 
   }
+
+
+
+Wishlist chart:
+For more complex financial charts, MudBlazor supports:
+
+Candlestick patterns
+
+Multiple series
+
+Custom tooltips
+
+Zooming/panning
+
+Wishlist software:
+Mass Transit and Rabit queues
+Reddis cache
+Oauth
