@@ -1,33 +1,118 @@
 ﻿@page "/"
 @inject StockDataService DataService
 
-<PageTitle>WiseBooks Dashboard</PageTitle>
+<PageTitle>WiseBooks - Trading Dashboard</PageTitle>
 
-<h1 class="text-3xl font-bold mb-4">📘 WiseBooks Trading Dashboard</h1>
-
-<input @bind="ticker" placeholder="Enter ticker..." class="p-2 border rounded" />
-<button @onclick="LoadStock" class="ml-2 px-4 py-2 bg-blue-500 text-white rounded">Analyze</button>
-
-@if (snapshot != null)
-{
-    <div class="mt-4 p-4 bg-gray-100 rounded shadow">
-        <h2 class="text-xl font-semibold">@snapshot.Ticker Snapshot</h2>
-        <p>📈 Previous High: $@snapshot.PreviousHigh</p>
-        <p>📉 Previous Low: $@snapshot.PreviousLow</p>
-        <p>🔒 Previous Close: $@snapshot.PreviousClose</p>
-        <p>🚀 Gap % Today: <b>@snapshot.GapPercentage%</b></p>
-        <p>🕯️ Close Position in Candle: @snapshot.ClosePositionInCandle</p>
-        <p>📊 Yesterday Volume: @snapshot.YesterdayVolume</p>
-        <p>📉 Average Volume: @snapshot.AverageVolume</p>
+<div class="container py-4">
+    <!-- Header -->
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-4 gap-3">
+        <div>
+            <h1 class="display-6 text-primary mb-0">
+                <i class="bi bi-graph-up me-2"></i>Trading Dashboard
+            </h1>
+            <p class="text-muted mb-0">Analyze yesterday's key levels</p>
+        </div>
+        <div class="d-flex flex-grow-1 flex-md-grow-0 gap-2 w-100 w-md-auto">
+            <input @bind="ticker" 
+                   class="form-control" 
+                   placeholder="MARA, SPY, etc." />
+            <button @onclick="LoadStock" 
+                    class="btn btn-primary px-4">
+                <i class="bi bi-lightning-charge me-1"></i>Analyze
+            </button>
+        </div>
     </div>
-}
+
+    @if (snapshot != null)
+    {
+        <div class="row g-4">
+            <!-- Key Metrics -->
+            <div class="col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">
+                            <i class="bi bi-speedometer2 me-2"></i>@snapshot.Ticker Metrics
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <MetricCard Icon="bi bi-arrow-up-circle" Label="Previous High" Value="@($"${snapshot.PreviousHigh}")" />
+                        <MetricCard Icon="bi bi-arrow-down-circle" Label="Previous Low" Value="@($"${snapshot.PreviousLow}")" />
+                        <MetricCard Icon="bi bi-dash-circle" Label="Previous Close" Value="@($"${snapshot.PreviousClose}")" />
+                        <MetricCard Icon="bi bi-percent" Label="Gap %" 
+                                   Value="@($"{snapshot.GapPercentage}%")" 
+                                   IsPositive="@(snapshot.GapPercentage >= 0)" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chart -->
+            <div class="col-lg-5">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">
+                            <i class="bi bi-bar-chart-line me-2"></i>Price Action
+                        </h5>
+                    </div>
+                    <div class="card-body p-2">
+                        <div @ref="chartContainer" style="height: 300px;" class="bg-light rounded"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Volume -->
+            <div class="col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">
+                            <i class="bi bi-volume-up me-2"></i>Volume
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <MetricCard Icon="bi bi-activity" Label="Yesterday Volume" 
+                                   Value="@(snapshot.YesterdayVolume.ToString("N0"))" />
+                        <MetricCard Icon="bi bi-arrow-repeat" Label="Avg Volume" 
+                                   Value="@(snapshot.AverageVolume.ToString("N0"))" />
+                        <div class="text-center mt-3">
+                            <span class="badge @GetPositionBadgeClass()">
+                                <i class="bi @GetPositionIcon() me-1"></i>@snapshot.ClosePositionInCandle Close
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
 
 @code {
-    private string ticker = "AAPL";
+    private string ticker = "MARA";
     private StockSnapshot? snapshot;
+    private ElementReference chartContainer;
+
+    private string GetPositionBadgeClass() => 
+        snapshot?.ClosePositionInCandle switch
+        {
+            "High" => "bg-success",
+            "Middle" => "bg-warning text-dark",
+            _ => "bg-danger"
+        };
+    
+    private string GetPositionIcon() =>
+        snapshot?.ClosePositionInCandle switch
+        {
+            "High" => "bi-arrow-up",
+            "Middle" => "bi-dash",
+            _ => "bi-arrow-down"
+        };
 
     private async Task LoadStock()
     {
         snapshot = await DataService.GetSnapshotAsync(ticker);
+        await InitializeChart();
+    }
+
+    private async Task InitializeChart()
+    {
+        // Chart initialization will go here
     }
 }

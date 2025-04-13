@@ -1,0 +1,18 @@
+<div class="d-flex align-items-center mb-3">
+    <div class="me-3">
+        <i class="@Icon fs-4 @(IsPositive.HasValue ? (IsPositive.Value ? "text-success" : "text-danger") : "text-primary")"></i>
+    </div>
+    <div class="flex-grow-1">
+        <div class="text-muted small">@Label</div>
+        <div class="h5 mb-0 @(IsPositive.HasValue ? (IsPositive.Value ? "text-success" : "text-danger") : "")">
+            @Value
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public string Icon { get; set; }
+    [Parameter] public string Label { get; set; }
+    [Parameter] public string Value { get; set; }
+    [Parameter] public bool? IsPositive { get; set; }
+}
