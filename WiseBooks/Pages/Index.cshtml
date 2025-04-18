@@ -63,19 +63,23 @@
             <div class="card chart-card">
                 <div class="card-body">
                     <h5 class="card-title">MARA - 5 Day Price Action</h5>
-                    <canvas id="priceChart" height="400"></canvas>
+                    <div class="chart-container" style="position: relative; height:400px; width:100%">
+                        <canvas id="priceChart"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Secondary Charts -->
-    <div class="row">
+    <!-- Secondary Charts - Removed in script -->
+    <div class="row" id="secondaryCharts">
         <div class="col-md-6">
             <div class="card chart-card">
                 <div class="card-body">
                     <h5 class="card-title">Volume Analysis</h5>
-                    <canvas id="volumeChart" height="250"></canvas>
+                    <div class="chart-container" style="position: relative; height:250px; width:100%">
+                        <canvas id="volumeChart"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,7 +87,9 @@
             <div class="card chart-card">
                 <div class="card-body">
                     <h5 class="card-title">Relative Strength</h5>
-                    <canvas id="rsiChart" height="250"></canvas>
+                    <div class="chart-container" style="position: relative; height:250px; width:100%">
+                        <canvas id="rsiChart"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
@@ -147,214 +153,112 @@
         color: #343a40;
         font-weight: 600;
     }
+
+    .chart-container {
+        min-height: 250px;
+    }
 </style>
 }
 
 @section Scripts {
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.0.2"></script>
+    
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Mock trading data
-            const dates = ['2024-04-15', '2024-04-16', '2024-04-17', '2024-04-18', '2024-04-19'];
-            const prices = {
-                opens: [16.50, 16.80, 17.50, 18.70, 18.20],
-                highs: [17.20, 18.00, 18.10, 19.00, 18.80],
-                lows: [15.90, 16.50, 17.20, 18.20, 17.90],
-                closes: [16.80, 17.50, 17.90, 18.50, 18.40],
-                volumes: [12400000, 9800000, 11200000, 15400000, 10800000]
-            };
+            // Clean up storage to prevent errors
+            try {
+                // Clear IndexedDB databases
+                if (window.indexedDB && indexedDB.databases) {
+                    indexedDB.databases().then(dbs => {
+                        dbs.forEach(db => {
+                            indexedDB.deleteDatabase(db.name);
+                        });
+                    }).catch(e => console.log("IndexedDB cleanup error:", e));
+                }
+                
+                // Clear other storage
+                localStorage.clear();
+                sessionStorage.clear();
+            } catch (e) {
+                console.log("Storage cleanup error:", e);
+            }
+
+            // Simple mock data
+            const dates = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'];
+            const closingPrices = [16.80, 17.50, 17.90, 18.50, 18.40];
             
-            const yesterdayHigh = 18.10;
-            const yesterdayLow = 17.20;
-            const yesterdayClose = 17.90;
-            const todayOpen = 18.70;
+            // Calculate min/max for Y-axis bounds
+            const minPrice = Math.min(...closingPrices) - 0.5;
+            const maxPrice = Math.max(...closingPrices) + 0.5;
+            
+            // Update metrics
+            document.querySelector('.metric-value').textContent = `$${closingPrices[closingPrices.length-1]}`;
             
             // Main Price Chart
             const priceCtx = document.getElementById('priceChart').getContext('2d');
-            new Chart(priceCtx, {
-                type: 'candlestick',
-                data: {
-                    labels: dates,
-                    datasets: [{
-                        label: 'MARA',
-                        data: prices.closes.map((close, i) => ({
-                            x: dates[i],
-                            o: prices.opens[i],
-                            h: prices.highs[i],
-                            l: prices.lows[i],
-                            c: close
-                        })),
-                        color: {
-                            up: '#28a745',
-                            down: '#dc3545',
-                            unchanged: '#6c757d',
-                        }
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        y: {
-                            beginAtZero: false,
-                            title: {
-                                display: true,
-                                text: 'Price ($)'
-                            }
-                        }
-                    },
-                    plugins: {
-                        annotation: {
-                            annotations: {
-                                line1: {
-                                    type: 'line',
-                                    yMin: yesterdayHigh,
-                                    yMax: yesterdayHigh,
-                                    borderColor: 'rgba(40, 167, 69, 0.5)',
-                                    borderWidth: 2,
-                                    borderDash: [6, 6],
-                                    label: {
-                                        content: 'Yesterday High',
-                                        enabled: true,
-                                        position: 'right'
-                                    }
-                                },
-                                line2: {
-                                    type: 'line',
-                                    yMin: yesterdayLow,
-                                    yMax: yesterdayLow,
-                                    borderColor: 'rgba(220, 53, 69, 0.5)',
-                                    borderWidth: 2,
-                                    borderDash: [6, 6],
-                                    label: {
-                                        content: 'Yesterday Low',
-                                        enabled: true,
-                                        position: 'right'
-                                    }
-                                },
-                                line3: {
-                                    type: 'line',
-                                    yMin: yesterdayClose,
-                                    yMax: yesterdayClose,
-                                    borderColor: 'rgba(0, 123, 255, 0.5)',
-                                    borderWidth: 2,
-                                    borderDash: [6, 6],
-                                    label: {
-                                        content: 'Yesterday Close',
-                                        enabled: true,
-                                        position: 'right'
-                                    }
-                                }
-                            }
-                        },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    const data = context.raw;
-                                    return [
-                                        `Open: $${data.o}`,
-                                        `High: $${data.h}`,
-                                        `Low: $${data.l}`,
-                                        `Close: $${data.c}`
-                                    ];
-                                }
-                            }
-                        }
-                    }
-                }
-            });
-            
-            // Volume Chart
-            const volumeCtx = document.getElementById('volumeChart').getContext('2d');
-            new Chart(volumeCtx, {
-                type: 'bar',
-                data: {
-                    labels: dates,
-                    datasets: [{
-                        label: 'Volume',
-                        data: prices.volumes,
-                        backgroundColor: prices.closes.map((close, i) => 
-                            close > prices.opens[i] ? 'rgba(40, 167, 69, 0.7)' : 'rgba(220, 53, 69, 0.7)'
-                        ),
-                        borderColor: prices.closes.map((close, i) => 
-                            close > prices.opens[i] ? 'rgba(40, 167, 69, 1)' : 'rgba(220, 53, 69, 1)'
-                        ),
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            title: {
-                                display: true,
-                                text: 'Volume'
-                            }
-                        }
-                    }
-                }
-            });
-            
-            // RSI Chart (mock data)
-            const rsiCtx = document.getElementById('rsiChart').getContext('2d');
-            new Chart(rsiCtx, {
+            const priceChart = new Chart(priceCtx, {
                 type: 'line',
                 data: {
                     labels: dates,
                     datasets: [{
-                        label: 'RSI (14)',
-                        data: [42, 58, 62, 68, 54],
+                        label: 'MARA Closing Price',
+                        data: closingPrices,
                         borderColor: 'rgba(0, 123, 255, 1)',
                         backgroundColor: 'rgba(0, 123, 255, 0.1)',
                         borderWidth: 2,
-                        tension: 0.1,
-                        fill: true
+                        tension: 0.3,
+                        fill: true,
                     }]
                 },
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
-                    scales: {
-                        y: {
-                            min: 0,
-                            max: 100,
-                            ticks: {
-                                stepSize: 10
-                            }
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'MARA Weekly Performance'
+                        },
+                        legend: {
+                            display: true,
+                            position: 'top'
                         }
                     },
-                    plugins: {
-                        annotation: {
-                            annotations: {
-                                line1: {
-                                    type: 'line',
-                                    yMin: 70,
-                                    yMax: 70,
-                                    borderColor: 'rgba(220, 53, 69, 0.5)',
-                                    borderWidth: 1,
-                                    label: {
-                                        content: 'Overbought',
-                                        enabled: true
-                                    }
-                                },
-                                line2: {
-                                    type: 'line',
-                                    yMin: 30,
-                                    yMax: 30,
-                                    borderColor: 'rgba(40, 167, 69, 0.5)',
-                                    borderWidth: 1,
-                                    label: {
-                                        content: 'Oversold',
-                                        enabled: true
-                                    }
+                    interaction: {
+                        mode: 'index',
+                        intersect: false
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            suggestedMin: minPrice,
+                            suggestedMax: maxPrice,
+                            ticks: {
+                                stepSize: 0.5,
+                                callback: function(value) {
+                                    return `$${value.toFixed(2)}`;
                                 }
+                            },
+                            title: {
+                                display: true,
+                                text: 'Price ($)'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Day'
                             }
                         }
                     }
                 }
+            });
+
+            // Remove secondary charts
+            document.getElementById('secondaryCharts').remove();
+
+            // Handle window resize
+            window.addEventListener('resize', function() {
+                priceChart.resize();
             });
         });
     </script>
