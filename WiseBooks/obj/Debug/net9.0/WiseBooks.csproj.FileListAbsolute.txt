@@ -1,105 +1,123 @@
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/bin/Debug/net9.0/appsettings.Development.json
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/bin/Debug/net9.0/appsettings.json
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.staticwebassets.runtime.json
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.staticwebassets.endpoints.json
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.deps.json
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.runtimeconfig.json
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.dll
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.pdb
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.GeneratedMSBuildEditorConfig.editorconfig
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.AssemblyInfoInputs.cache
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.AssemblyInfo.cs
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.csproj.CoreCompileInputs.cache
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.MvcApplicationPartsAssemblyInfo.cache
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/bundle/WiseBooks.styles.css
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/projectbundle/WiseBooks.bundle.scp.css
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-khy4lop6wu.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/tzla5it3x4-bqjiyaj88i.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0ywzyn0v93-c2jlpeoesf.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/bt2fxcozub-erw9l3u2r3.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/l83500151r-aexeepp0ev.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/nynhtlccm4-d7shbmvgxk.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/gn6jej671i-ausgxo2sd3.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0rhzrbgcgh-k8d9w2qqmf.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/9fjgmc57of-cosvhxvwiu.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/1q50xvpw71-ub07r2b239.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hi0jg57efk-fvhpjtyr6v.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/jod4gmvv9e-b7pk76d08c.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/nhc4q70jpp-fsbi9cje9m.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/iw2txtw97x-rzd6atqjts.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/zz0sw2giqm-ee0r1s7dh0.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/p4r4v7r4xx-dxx9fxp4il.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/cvh6z2zjid-jd9uben2k1.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/xc8e9zwjxo-khv3u5hwcm.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/phxti1onr6-r4e9w2rdcm.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/5vq2ii84vl-lcd1t2u6c8.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/njrkvoxzs4-c2oey78nd0.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/p3t5d26aw4-tdbxkamptv.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/zllgpu0bgs-j5mq2jizvt.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/j87bd042pd-06098lyss8.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/64q5sznb1q-nvvlpmu67g.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/vcua0pmyti-s35ty4nyc5.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/lc2u2yyh8g-pj5nd1wqec.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/z614xjr1eh-46ein0sx1k.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/n6lur6d2ia-v0zj4ognzu.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/a9012diz3s-37tfw0ft22.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/tpjft2flfy-hrwsygsryq.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/rb97lu4kh8-pk9g2wxc8p.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/2byp863rcu-ft3s53vfgj.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/lwt3w22enk-6cfz1n2cew.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/iwa9ceomhf-6pdc2jztkx.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/1ek0sn3jsi-493y06b0oq.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/1i2wmqpa4e-iovd86k7lj.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/u41lij52l6-vr1egmr9el.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/zigcedxhs9-kbrnm935zg.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/e8d9f9sklh-jj8uyg4cgr.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/d41gy1m1pf-y7v9cxd14o.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/83ofd8zs3t-notf2xhcfb.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/4ojg9el9mu-h1s4sie4z3.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/y0rrjqp1x0-63fj8s7r0e.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/racd9ivybb-0j3bgjxly4.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/i0p8f4c191-dl5pmfzhyr.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/midl3wrr21-dl5pmfzhyr.gz
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.build.json
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.development.json
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.build.endpoints.json
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.WiseBooks.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.WiseBooks.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.build.WiseBooks.props
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.WiseBooks.props
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.WiseBooks.props
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.pack.json
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.dll
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/refint/WiseBooks.dll
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.pdb
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.genruntimeconfig.cache
-/Users/tomasvenere/Desktop/WiseBooks/WiseBooks/obj/Debug/net9.0/ref/WiseBooks.dll
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/appsettings.Development.json
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/appsettings.json
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.staticwebassets.runtime.json
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.staticwebassets.endpoints.json
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.deps.json
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.runtimeconfig.json
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.dll
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.pdb
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.AssemblyInfoInputs.cache
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.AssemblyInfo.cs
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.csproj.CoreCompileInputs.cache
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.MvcApplicationPartsAssemblyInfo.cache
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.RazorAssemblyInfo.cache
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.RazorAssemblyInfo.cs
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/bundle/WiseBooks.styles.css
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/projectbundle/WiseBooks.bundle.scp.css
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/d2kwiz6e6l-b9sayid5wm.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/qarghj7erf-61n19gt1b8.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/8h6ed7dydc-xtxxf3hu2r.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/tzla5it3x4-bqjiyaj88i.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0ywzyn0v93-c2jlpeoesf.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/bt2fxcozub-erw9l3u2r3.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/l83500151r-aexeepp0ev.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/nynhtlccm4-d7shbmvgxk.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/gn6jej671i-ausgxo2sd3.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0rhzrbgcgh-k8d9w2qqmf.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/9fjgmc57of-cosvhxvwiu.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/1q50xvpw71-ub07r2b239.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hi0jg57efk-fvhpjtyr6v.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/jod4gmvv9e-b7pk76d08c.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/nhc4q70jpp-fsbi9cje9m.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/iw2txtw97x-rzd6atqjts.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/zz0sw2giqm-ee0r1s7dh0.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/p4r4v7r4xx-dxx9fxp4il.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/cvh6z2zjid-jd9uben2k1.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/xc8e9zwjxo-khv3u5hwcm.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/phxti1onr6-r4e9w2rdcm.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/5vq2ii84vl-lcd1t2u6c8.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/njrkvoxzs4-c2oey78nd0.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/p3t5d26aw4-tdbxkamptv.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/zllgpu0bgs-j5mq2jizvt.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/j87bd042pd-06098lyss8.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/64q5sznb1q-nvvlpmu67g.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/vcua0pmyti-s35ty4nyc5.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/lc2u2yyh8g-pj5nd1wqec.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/z614xjr1eh-46ein0sx1k.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/n6lur6d2ia-v0zj4ognzu.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/a9012diz3s-37tfw0ft22.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/tpjft2flfy-hrwsygsryq.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/rb97lu4kh8-pk9g2wxc8p.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/2byp863rcu-ft3s53vfgj.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/lwt3w22enk-6cfz1n2cew.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/iwa9ceomhf-6pdc2jztkx.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/1ek0sn3jsi-493y06b0oq.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/1i2wmqpa4e-iovd86k7lj.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/u41lij52l6-vr1egmr9el.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/zigcedxhs9-kbrnm935zg.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/e8d9f9sklh-jj8uyg4cgr.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/d41gy1m1pf-y7v9cxd14o.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/83ofd8zs3t-notf2xhcfb.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/4ojg9el9mu-h1s4sie4z3.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/y0rrjqp1x0-63fj8s7r0e.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/racd9ivybb-0j3bgjxly4.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/gq2yqqs3w0-47otxtyo56.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/ephr2lhqe9-4v8eqarkd7.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/i0wg0r4bfm-356vix0kms.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/b25j09u262-83jwlth58m.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/9xiwg4e50k-mrlpezrjn3.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/829u0h91c7-lzl9nlhx6b.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/v1dra216ij-ag7o75518u.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/fehoe8n04m-x0q3zqp4vz.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/wy37q16e2r-0i3buxo5is.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/8rt0xjz6zp-o1o13a6vjx.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/epfypb4nm9-ttgo8qnofa.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/67fp5nlgpa-2z0ns9nrw6.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/vcarsqofhu-muycvpuwrr.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/f9okl4f4r7-87fc7y1x7t.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/5ue6c4b8sm-mlv21k5csn.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/i0p8f4c191-lwlca1lqfg.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/midl3wrr21-lwlca1lqfg.gz
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.build.json
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.development.json
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.WiseBooks.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.WiseBooks.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.build.WiseBooks.props
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.WiseBooks.props
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.WiseBooks.props
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.pack.json
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.dll
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/refint/WiseBooks.dll
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.pdb
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.genruntimeconfig.cache
+/Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/ref/WiseBooks.dll
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/appsettings.Development.json
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/appsettings.json
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.staticwebassets.runtime.json
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.staticwebassets.endpoints.json
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.staticwebassets.runtime.json
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.deps.json
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.runtimeconfig.json
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.dll
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.pdb
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/MudBlazor.dll
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.csproj.AssemblyReference.cache
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.GeneratedMSBuildEditorConfig.editorconfig
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.AssemblyInfoInputs.cache
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.AssemblyInfo.cs
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.csproj.CoreCompileInputs.cache
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.MvcApplicationPartsAssemblyInfo.cache
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.RazorAssemblyInfo.cache
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.RazorAssemblyInfo.cs
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.sourcelink.json
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/bundle/WiseBooks.styles.css
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/projectbundle/WiseBooks.bundle.scp.css
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/tzxjg6is5z-xq1475mihp.gz
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0wz98yz2xy-naziz8oi58.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/d2kwiz6e6l-b9sayid5wm.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/qarghj7erf-61n19gt1b8.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/8h6ed7dydc-xtxxf3hu2r.gz
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/tzla5it3x4-bqjiyaj88i.gz
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0ywzyn0v93-c2jlpeoesf.gz
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/bt2fxcozub-erw9l3u2r3.gz
@@ -144,8 +162,23 @@
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/4ojg9el9mu-h1s4sie4z3.gz
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/y0rrjqp1x0-63fj8s7r0e.gz
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/racd9ivybb-0j3bgjxly4.gz
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/i0p8f4c191-dl5pmfzhyr.gz
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/midl3wrr21-dl5pmfzhyr.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/gq2yqqs3w0-47otxtyo56.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/ephr2lhqe9-4v8eqarkd7.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/i0wg0r4bfm-356vix0kms.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/b25j09u262-83jwlth58m.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/9xiwg4e50k-mrlpezrjn3.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/829u0h91c7-lzl9nlhx6b.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/v1dra216ij-ag7o75518u.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/fehoe8n04m-x0q3zqp4vz.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/wy37q16e2r-0i3buxo5is.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/8rt0xjz6zp-o1o13a6vjx.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/epfypb4nm9-ttgo8qnofa.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/67fp5nlgpa-2z0ns9nrw6.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/vcarsqofhu-muycvpuwrr.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/f9okl4f4r7-87fc7y1x7t.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/5ue6c4b8sm-mlv21k5csn.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/i0p8f4c191-lwlca1lqfg.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/midl3wrr21-lwlca1lqfg.gz
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.build.json
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.development.json
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -155,10 +188,8 @@
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.WiseBooks.props
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.WiseBooks.props
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/staticwebassets.pack.json
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.csproj.Up2Date
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.dll
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/refint/WiseBooks.dll
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.pdb
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/WiseBooks.genruntimeconfig.cache
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/ref/WiseBooks.dll
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/hrf17u2bd8-o69o8tthqn.gz
