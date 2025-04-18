@@ -97,8 +97,8 @@
 /Users/tomasvenere/Desktop/Old Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/ref/WiseBooks.dll
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/appsettings.Development.json
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/appsettings.json
-/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.staticwebassets.endpoints.json
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.staticwebassets.runtime.json
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.staticwebassets.endpoints.json
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.deps.json
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/bin/Debug/net9.0/WiseBooks.runtimeconfig.json
