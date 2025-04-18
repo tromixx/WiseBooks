@@ -1,0 +1,116 @@
+.trading-dashboard {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.dashboard-header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.metric-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+}
+
+.metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.metric-change {
+    font-size: 14px;
+}
+
+.positive {
+    color: #28a745;
+}
+
+.negative {
+    color: #dc3545;
+}
+
+.neutral {
+    color: #6c757d;
+}
+
+.chart-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #343a40;
+    font-weight: 600;
+}
+
+.chart-container {
+    min-height: 250px;
+}
+
+/* Thermometer Styles */
+.thermometer-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-top: 60px;
+}
+
+.thermometer {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thermometer-track {
+    width: 20px;
+    height: 280px;
+    background: linear-gradient(to top, #28a745 0%, #ffc107 50%, #dc3545 100%);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.thermometer-fill {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: height 0.5s ease;
+}
+
+.thermometer-labels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 280px;
+    margin-left: 10px;
+    font-size: 12px;
+    text-align: left;
+    gap: 4px;
+}
+
+.thermometer-labels span:first-child {
+    color: #28a745;
+}
+
+.thermometer-labels span:nth-child(2) {
+    color: #ffc107;
+}
+
+.thermometer-labels span:last-child {
+    color: #dc3545;
+}

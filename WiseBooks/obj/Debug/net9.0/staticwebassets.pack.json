@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/css/trading-dashboard.css",
+      "PackagePath": "staticwebassets/css/trading-dashboard.css"
+    },
+    {
       "Id": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
       "Id": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/js/trading-dashboard.js",
+      "PackagePath": "staticwebassets/js/trading-dashboard.js"
     },
     {
       "Id": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/lib/bootstrap/LICENSE",

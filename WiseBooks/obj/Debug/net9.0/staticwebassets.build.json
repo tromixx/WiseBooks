@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pcyjyH48YJ9zUmtMcJ+FWQhst45N12boFOlX7K2GhZE=",
+  "Hash": "igkDqi9dEHwNnbBvKGcrT152Gdh0LR2EHyiaOySMuMs=",
   "Source": "WiseBooks",
   "BasePath": "_content/WiseBooks",
   "Mode": "Default",
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/2umd8n8sej-86r0rxdpr2.gz",
+      "SourceId": "WiseBooks",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WiseBooks",
+      "RelativePath": "js/trading-dashboard#[.{fingerprint=86r0rxdpr2}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/js/trading-dashboard.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rjxcz3gwhq",
+      "Integrity": "1yMMwxQGyeMlsvPElo3vnljsB+ISBa5ZtIeuVVJ4UME=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/js/trading-dashboard.js"
     },
     {
       "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/4ojg9el9mu-h1s4sie4z3.gz",
@@ -519,6 +540,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/eapp77gsls-5n68rxsh6v.gz",
+      "SourceId": "WiseBooks",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WiseBooks",
+      "RelativePath": "css/trading-dashboard#[.{fingerprint=5n68rxsh6v}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/css/trading-dashboard.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "auqr8r6giv",
+      "Integrity": "onRMG2uNFMkz3hvRIevDkX8URb72Hxoz0eNj7hWpg34=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/css/trading-dashboard.css"
     },
     {
       "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/epfypb4nm9-ttgo8qnofa.gz",
@@ -1424,6 +1466,27 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
+      "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/css/trading-dashboard.css",
+      "SourceId": "WiseBooks",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/",
+      "BasePath": "_content/WiseBooks",
+      "RelativePath": "css/trading-dashboard#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5n68rxsh6v",
+      "Integrity": "ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR+VzA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/trading-dashboard.css"
+    },
+    {
       "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/favicon.ico",
       "SourceId": "WiseBooks",
       "SourceType": "Discovered",
@@ -1464,6 +1527,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/js/trading-dashboard.js",
+      "SourceId": "WiseBooks",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/",
+      "BasePath": "_content/WiseBooks",
+      "RelativePath": "js/trading-dashboard#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "86r0rxdpr2",
+      "Integrity": "cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/trading-dashboard.js"
     },
     {
       "Identity": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
@@ -3026,6 +3110,304 @@
       ]
     },
     {
+      "Route": "css/trading-dashboard.5n68rxsh6v.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/eapp77gsls-5n68rxsh6v.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001440922190"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "693"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"onRMG2uNFMkz3hvRIevDkX8URb72Hxoz0eNj7hWpg34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 17:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR+VzA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5n68rxsh6v"
+        },
+        {
+          "Name": "label",
+          "Value": "css/trading-dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR+VzA="
+        }
+      ]
+    },
+    {
+      "Route": "css/trading-dashboard.5n68rxsh6v.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/css/trading-dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR+VzA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 17:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5n68rxsh6v"
+        },
+        {
+          "Name": "label",
+          "Value": "css/trading-dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR+VzA="
+        }
+      ]
+    },
+    {
+      "Route": "css/trading-dashboard.5n68rxsh6v.css.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/eapp77gsls-5n68rxsh6v.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"onRMG2uNFMkz3hvRIevDkX8URb72Hxoz0eNj7hWpg34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 17:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5n68rxsh6v"
+        },
+        {
+          "Name": "label",
+          "Value": "css/trading-dashboard.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-onRMG2uNFMkz3hvRIevDkX8URb72Hxoz0eNj7hWpg34="
+        }
+      ]
+    },
+    {
+      "Route": "css/trading-dashboard.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/eapp77gsls-5n68rxsh6v.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001440922190"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "693"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"onRMG2uNFMkz3hvRIevDkX8URb72Hxoz0eNj7hWpg34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 17:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR+VzA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR+VzA="
+        }
+      ]
+    },
+    {
+      "Route": "css/trading-dashboard.css",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/css/trading-dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR+VzA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 17:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR+VzA="
+        }
+      ]
+    },
+    {
+      "Route": "css/trading-dashboard.css.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/eapp77gsls-5n68rxsh6v.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"onRMG2uNFMkz3hvRIevDkX8URb72Hxoz0eNj7hWpg34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 17:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-onRMG2uNFMkz3hvRIevDkX8URb72Hxoz0eNj7hWpg34="
+        }
+      ]
+    },
+    {
       "Route": "favicon.61n19gt1b8.ico",
       "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/qarghj7erf-61n19gt1b8.gz",
       "Selectors": [
@@ -3618,6 +4000,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-YTkfXSHFEnZ6310TKacrOsSM7+9iBIEpAwW6DhmB2Rg="
+        }
+      ]
+    },
+    {
+      "Route": "js/trading-dashboard.86r0rxdpr2.js",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/2umd8n8sej-86r0rxdpr2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000559284116"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1787"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1yMMwxQGyeMlsvPElo3vnljsB+ISBa5ZtIeuVVJ4UME=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 18:15:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86r0rxdpr2"
+        },
+        {
+          "Name": "label",
+          "Value": "js/trading-dashboard.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY="
+        }
+      ]
+    },
+    {
+      "Route": "js/trading-dashboard.86r0rxdpr2.js",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/js/trading-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 18:15:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86r0rxdpr2"
+        },
+        {
+          "Name": "label",
+          "Value": "js/trading-dashboard.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY="
+        }
+      ]
+    },
+    {
+      "Route": "js/trading-dashboard.86r0rxdpr2.js.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/2umd8n8sej-86r0rxdpr2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1yMMwxQGyeMlsvPElo3vnljsB+ISBa5ZtIeuVVJ4UME=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 18:15:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86r0rxdpr2"
+        },
+        {
+          "Name": "label",
+          "Value": "js/trading-dashboard.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1yMMwxQGyeMlsvPElo3vnljsB+ISBa5ZtIeuVVJ4UME="
+        }
+      ]
+    },
+    {
+      "Route": "js/trading-dashboard.js",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/2umd8n8sej-86r0rxdpr2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000559284116"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1787"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1yMMwxQGyeMlsvPElo3vnljsB+ISBa5ZtIeuVVJ4UME=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 18:15:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY="
+        }
+      ]
+    },
+    {
+      "Route": "js/trading-dashboard.js",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/wwwroot/js/trading-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 18:15:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY="
+        }
+      ]
+    },
+    {
+      "Route": "js/trading-dashboard.js.gz",
+      "AssetFile": "/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/2umd8n8sej-86r0rxdpr2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1yMMwxQGyeMlsvPElo3vnljsB+ISBa5ZtIeuVVJ4UME=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 18:15:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1yMMwxQGyeMlsvPElo3vnljsB+ISBa5ZtIeuVVJ4UME="
         }
       ]
     },
@@ -21310,7 +21990,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21363,7 +22043,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21400,7 +22080,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21447,7 +22127,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21508,7 +22188,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21553,7 +22233,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21608,7 +22288,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21669,7 +22349,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21714,7 +22394,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21769,7 +22449,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21822,7 +22502,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21859,7 +22539,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 16:36:29 GMT"
+          "Value": "Fri, 18 Apr 2025 18:15:48 GMT"
         },
         {
           "Name": "Cache-Control",

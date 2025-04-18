@@ -12,6 +12,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 05:48:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WiseBooks/css/trading-dashboard.5n68rxsh6v.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\trading-dashboard.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5n68rxsh6v"},{"Name":"integrity","Value":"sha256-ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR\u002BVzA="},{"Name":"label","Value":"_content/WiseBooks/css/trading-dashboard.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1901"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR\u002BVzA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 17:40:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WiseBooks/css/trading-dashboard.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\trading-dashboard.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR\u002BVzA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1901"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ofKCwE65BoshcKFaWUV9XJtP2vMSCD6BRN3q2eR\u002BVzA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 17:40:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WiseBooks/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -35,6 +47,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xtxxf3hu2r"},{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="},{"Name":"label","Value":"_content/WiseBooks/js/site.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 05:48:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WiseBooks/js/trading-dashboard.86r0rxdpr2.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\trading-dashboard.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"86r0rxdpr2"},{"Name":"integrity","Value":"sha256-cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY="},{"Name":"label","Value":"_content/WiseBooks/js/trading-dashboard.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7282"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 18:15:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WiseBooks/js/trading-dashboard.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\trading-dashboard.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7282"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cEfhuvC0UsSEdJBqlM5DFKu1MFq5krmJ1DKO62jWJHY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 18:15:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WiseBooks/lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>
@@ -760,13 +784,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WiseBooks.lwlca1lqfg.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-G0h\u002BhMaPizuzqIh7I5ZYRmgqxfwpeM2QOfuwpOl54/k="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1078"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022G0h\u002BhMaPizuzqIh7I5ZYRmgqxfwpeM2QOfuwpOl54/k=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 16:36:29 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1078"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022G0h\u002BhMaPizuzqIh7I5ZYRmgqxfwpeM2QOfuwpOl54/k=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 18:15:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WiseBooks/WiseBooks.lwlca1lqfg.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WiseBooks.lwlca1lqfg.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lwlca1lqfg"},{"Name":"integrity","Value":"sha256-G0h\u002BhMaPizuzqIh7I5ZYRmgqxfwpeM2QOfuwpOl54/k="},{"Name":"label","Value":"_content/WiseBooks/WiseBooks.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1078"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022G0h\u002BhMaPizuzqIh7I5ZYRmgqxfwpeM2QOfuwpOl54/k=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 16:36:29 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1078"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022G0h\u002BhMaPizuzqIh7I5ZYRmgqxfwpeM2QOfuwpOl54/k=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 18:15:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

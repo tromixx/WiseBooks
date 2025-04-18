@@ -116,8 +116,10 @@
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/bundle/WiseBooks.styles.css
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/scopedcss/projectbundle/WiseBooks.bundle.scp.css
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/d2kwiz6e6l-b9sayid5wm.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/eapp77gsls-5n68rxsh6v.gz
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/qarghj7erf-61n19gt1b8.gz
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/8h6ed7dydc-xtxxf3hu2r.gz
+/Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/2umd8n8sej-86r0rxdpr2.gz
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/tzla5it3x4-bqjiyaj88i.gz
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/0ywzyn0v93-c2jlpeoesf.gz
 /Users/tomasvenere/Desktop/Repos/WiseBooks/WiseBooks/obj/Debug/net9.0/compressed/bt2fxcozub-erw9l3u2r3.gz
